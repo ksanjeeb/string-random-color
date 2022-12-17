@@ -1,0 +1,25 @@
+{
+  "name": "string-random-color-generator",
+  "version": "1.0.0",
+  "description": "Its random colour generator package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theHalfCoder1dot0/string-random-color.git"
+  },
+  "keywords": [
+    "generate-color",
+    "string-based-random-color",
+    "random-color",
+    "string-color"
+  ],
+  "author": "@ksanjeeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theHalfCoder1dot0/string-random-color/issues"
+  },
+  "homepage": "https://github.com/theHalfCoder1dot0/string-random-color#readme"
+}

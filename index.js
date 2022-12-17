@@ -1,4 +1,4 @@
-randomColor = (string, saturation = 50, brightness = 60  ) => {
+generateColor = (string, saturation = 50, brightness = 60  ) => {
     var hash = 0;
     for (var i = 0; i < string.length; i++) {
       hash = str.charCodeAt(i) + ((hash << 5) - hash);
@@ -7,4 +7,4 @@ randomColor = (string, saturation = 50, brightness = 60  ) => {
     return 'hsl('+h+', '+saturation+'%, '+brightness+'%)';
   }
 
-export default { randomColor};
+export default { generateColor };
